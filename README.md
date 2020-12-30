@@ -1,4 +1,4 @@
-# Installation de tailwindcss
+# Comment configurer Tailwind
 <ul>
 <li>npm install tailwindcss autoprefixer postcss-cli postcss cross-env</li>
 <li>"build":"tailwind build tailwind.css -o ./dist/css/style.css"</li>
