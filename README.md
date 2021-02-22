@@ -1,5 +1,3 @@
-# Comment configurer Tailwind
-
 ## Installation
 
 Initialiser un projet  avec `npm init  -y`
@@ -10,13 +8,13 @@ Installer tailwindcss avec les dépendances nécessaires .
 npm install tailwindcss autoprefixer postcss postcss-cli
 ```
 
-Une fois installé nous allons créé 2 fichiers de configuration `postcss.config.js` et `tailwind.config.js` .
+Une fois installé nous allons créer 2 fichiers de configuration `postcss.config.js` et `tailwind.config.js` .
 
 ```bash
 npx tailwindcss init -p 
 ```
 
-On peux aussi utiliser la commande 
+On peut aussi utiliser la commande 
 
 ```bash
 npx tailwindcss init -full
@@ -26,7 +24,7 @@ Cette commande nous permettra de récupérer toutes les class de tailwind afin d
 
 Ensuite il faudra créer un fichier CSS à la racine de notre projet.
 
-Dans ce fichier nous allons devoir importer les éléments depuis le dossier node_modules pour cela nous allons ajouter c'est ligne à nôtre fichier.
+Dans ce fichier nous allons devoir importer les éléments depuis le dossier node_modules pour cela nous allons ajouter c'est ligne à notre fichier.
 
 ```css
 @tailwind base;
@@ -54,4 +52,4 @@ Une fois le script lancer il va nous créer un fichier css en sortie dans notre 
 
 maintenant nous pouvons utiliser tailwind dans notre projet.
 
-Tailwindcss  intègre une façon de supprimer tout le css qui n'est pas utiliser pour cela ont utilise purgecss
+Tailwindcss  intègre une façon de supprimer tout le css qui n'est pas utiliser pour cela on utilise purgecss
